@@ -1,0 +1,10 @@
+{
+    "name": "mesd/doctrine-extensions-date-functions-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Doctrine Extensions Date Functions Bundle",
+    "autoload": {
+        "psr-0": { "MESD\\DoctrineExtensions\\DateFunctionsBundle": "" }
+    },
+    "target-dir": "MESD/DoctrineExtensions/DateFunctionsBundle"
+}
