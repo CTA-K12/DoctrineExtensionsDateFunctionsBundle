@@ -1,6 +1,6 @@
 <?php
 
-namespace MESD\DoctrineExtensions\DateFunctionsBundle\DoctrineExtensions\Postgres;
+namespace Mesd\DoctrineExtensions\DateFunctionsBundle\DoctrineExtensions\Postgres;
 
 use Doctrine\ORM\Query\Lexer;
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;

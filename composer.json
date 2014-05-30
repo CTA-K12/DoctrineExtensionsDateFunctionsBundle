@@ -4,7 +4,7 @@
     "type": "symfony-bundle",
     "description": "Doctrine Extensions Date Functions Bundle",
     "autoload": {
-        "psr-0": { "MESD\\DoctrineExtensions\\DateFunctionsBundle": "" }
+        "psr-0": { "Mesd\\DoctrineExtensions\\DateFunctionsBundle": "" }
     },
-    "target-dir": "MESD/DoctrineExtensions/DateFunctionsBundle"
+    "target-dir": "Mesd/DoctrineExtensions/DateFunctionsBundle"
 }

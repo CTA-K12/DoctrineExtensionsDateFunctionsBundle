@@ -1,5 +1,5 @@
 parameters:
-#    mesd_doctrine_extensions_datefunctions.example.class: MESD\DoctrineExtensions\DateFunctionsBundle\Example
+#    mesd_doctrine_extensions_datefunctions.example.class: Mesd\DoctrineExtensions\DateFunctionsBundle\Example
 
 services:
 #    mesd_doctrine_extensions_datefunctions.example:

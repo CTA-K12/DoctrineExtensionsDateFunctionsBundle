@@ -1,6 +1,6 @@
 <?php
 
-namespace MESD\DoctrineExtensions\DateFunctionsBundle\DependencyInjection;
+namespace Mesd\DoctrineExtensions\DateFunctionsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
