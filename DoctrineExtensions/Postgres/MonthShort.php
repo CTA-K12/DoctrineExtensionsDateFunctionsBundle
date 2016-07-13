@@ -11,7 +11,7 @@ use Doctrine\ORM\Query\Lexer;
  *
  */
 
-class Month extends FunctionNode
+class MonthShort extends FunctionNode
 {
     public $date;
 
@@ -20,7 +20,7 @@ class Month extends FunctionNode
      */
     public function getSql(\Doctrine\ORM\Query\SqlWalker $sqlWalker)
     {
-        return "extract(month from " . $sqlWalker->walkArithmeticPrimary($this->date) . ")";
+        return "to_char(" . $sqlWalker->walkArithmeticPrimary($this->date) . ", 'Mon')";
     }
 
     public function parse(\Doctrine\ORM\Query\Parser $parser)
